@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.gcampos.findyourband.AppFront.Filter"
+    tools:showIn="@layout/activity_filter">
+
+
+    <LinearLayout
+        android:layout_height="495dp"
+        android:layout_width="368dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="10dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <CardView
+            android:id="@+id/card_view"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:cardCornerRadius="4dp"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Estilo"
+            android:layout_margin="30dp"
+            android:textSize="15dp"
+            android:textColor="@color/colorPrimary"/>
+
+        <Spinner
+            android:layout_height="30dp"
+            android:layout_width="match_parent"
+            android:autofillHints="Escolha seu estilo"/>
+
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Instrumento"
+            android:layout_margin="30dp"
+            android:textSize="15dp"
+            android:textColor="@color/colorPrimary"/>
+
+        <Spinner
+            android:layout_height="30dp"
+            android:layout_width="match_parent"
+            android:autofillHints="Escolha seu estilo"/>
+
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Objetivo"
+            android:layout_margin="30dp"
+            android:textSize="15dp"
+            android:textColor="@color/colorPrimary"/>
+
+        <CheckBox
+            android:layout_margin="20dp"
+            android:layout_height="25dp"
+            android:layout_width="25dp"
+            android:text="Profissional"
+            android:textColor="@color/colorPrimary"/>
+
+        <CheckBox
+            android:layout_margin="20dp"
+            android:layout_height="25dp"
+            android:layout_width="25dp"
+            android:text="Zuera"
+            android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Raio"
+            android:layout_margin="30dp"
+            android:textSize="15dp"
+            android:textColor="@color/colorPrimary"/>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>
